@@ -34,3 +34,5 @@ killall Finder
 sudo tmutil disablelocal && sudo tmutil enablelocal
 # Time Machineのローカルキャッシュを無効
 sudo tmutil disablelocal
+# Spotlightのindexを停止
+sudo mdutil -a -i off
