@@ -11,6 +11,6 @@ gem install homesick
 gem install io-console
 
 homesick clone https://github.com/fainder/dotfiles-aws.git
-homesick symlink -f
+homesick link dotfiles-aws
 
 zsh
