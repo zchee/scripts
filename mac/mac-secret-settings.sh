@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # 不可視ファイルの表示
 defaults write com.apple.finder AppleShowAllFiles -bool true
 # Finderのタイトルバーにフルパス表示
