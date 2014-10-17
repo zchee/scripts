@@ -12,6 +12,8 @@ defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write -g NSWindowResizeTime 0.1
 # ダウンロードアプリの警告ダイアログを無効
 defaults write com.apple.LaunchServices LSQuarantine -bool false
+# diskイメージのマウントのverifyチェックオフ
+defaults write com.apple.frameworks.diskimages skip-verify true
 # クラッシュリポーターを無効
 defaults write com.apple.CrashReporter DialogType none
 # Dockが表示される速度を変更
