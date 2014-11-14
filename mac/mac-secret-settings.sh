@@ -23,7 +23,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0.3
 # Suckエフェクトを有効
 defaults write com.apple.dock mineffect suck
 # Mission Controlの速度を変更
-defaults write com.apple.dock expose-animation-duration -float 0
+defaults write com.apple.dock expose-animation-duration -float 0.1
 # 次のデスクトップに移動する際の待ち時間を変更
 defaults write com.apple.dock workspaces-edge-delay -float 0.5
 # Launchpadの表示速度を変更
