@@ -39,3 +39,27 @@ sudo tmutil disablelocal && sudo tmutil enablelocal
 # Time Machineのローカルキャッシュを無効
 sudo tmutil disablelocal
 
+
+####################################################################
+# General Animations
+####################################################################
+
+# Disable window animations (have to restart apps for this to take effect)
+defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+
+# Disable smooth scrolling 
+defaults write -g NSScrollAnimationEnabled -bool false
+
+# Make Cocoa applications window resize faster
+defaults write -g NSWindowResizeTime -float 0.001
+
+# Disable Quick Look window animations
+defaults write -g QLPanelAnimationDuration -float 0
+
+# Disable window animations for version browser
+defaults write -g NSDocumentRevisionsWindowTransformAnimation -bool false
+
+# Disable animation for scrolling column 
+defaults write -g NSBrowserColumnAnimationSpeedMultiplier -float 0
+
+defaults write com.apple.Finder DisableAllAnimations -bool true
